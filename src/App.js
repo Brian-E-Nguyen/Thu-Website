@@ -1,4 +1,4 @@
-import { Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import Home from './views/Home';
 import Resume from './views/Resume';
@@ -12,12 +12,10 @@ function App() {
     <div>
       <Navbar />
       <header className='App-header'>
-        <Route path='/home'>
-          <Home />
-        </Route>
-        <Route path='/resume'>
-          <Resume />
-        </Route>
+        <Switch>
+          <Route path='/' exact component={Home} />
+          <Route path='/resume' component={Resume} />
+        </Switch>
       </header>
     </div>
   );
