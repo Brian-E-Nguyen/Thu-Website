@@ -1,7 +1,7 @@
 import { Route } from 'react-router-dom';
 
-import Home from './components/Home';
-import Resume from './components/Resume';
+import Home from './views/Home';
+import Resume from './views/Resume';
 
 import './App.css';
 
@@ -9,8 +9,11 @@ function App() {
   return (
     <div className='App'>
       <header className='App-header'>
-        <Route path='/home'>
+        <Route path=''>
           <Home />
+        </Route>
+        <Route path='/resume'>
+          <Resume />
         </Route>
       </header>
     </div>
