@@ -8,16 +8,20 @@
 
 .resume__title {
   text-align: center;
-  font-size: 2rem;
-  font-weight: 300;
+  font-size: 3rem;
+  font-weight: 100;
+  margin: 10px 0;
 }
 
-.resume__link {
-  /* display: inline-block; */
-  margin: 0 20px;
-  text-align: center;
+.resume__links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
-
+.resume__links li {
+  list-style: none;
+  margin: auto;
+}
 .resume__header {
   font-weight: 700;
   border-bottom: 1px solid black;
@@ -64,5 +68,8 @@
   .resume__leftcolumn--description {
     font-style: italic;
     margin-top: -10px;
+  }
+  .resume__links ul {
+    flex-direction: column;
   }
 }
