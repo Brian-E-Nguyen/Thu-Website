@@ -18,6 +18,12 @@ const ResumeVolunteer = () => {
           <p className='resume__leftcolumn--description'>
             VP of Administration
           </p>
+        </Grid>
+        <Grid item sm={12} md={2}>
+          <p className='resume__rightcolumn--description'>Norwalk, CA</p>
+        </Grid>
+        <div>
+          {' '}
           <ul className='resume__list'>
             <li>
               Serving as the VP of Administration at California State
@@ -38,10 +44,7 @@ const ResumeVolunteer = () => {
               receiving services
             </li>
           </ul>
-        </Grid>
-        <Grid item sm={12} md={2}>
-          <p className='resume__rightcolumn--description'>Norwalk, CA</p>
-        </Grid>
+        </div>
       </Grid>
 
       {/* HO CHI MINH CITY OPEN UNIVERSITY */}
