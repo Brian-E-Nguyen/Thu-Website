@@ -1,0 +1,18 @@
+.resume {
+  background-color: white;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0 50px;
+}
+
+.resume__title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.resume__link {
+  /* display: inline-block; */
+  margin: 0 20px;
+  text-align: center;
+}
