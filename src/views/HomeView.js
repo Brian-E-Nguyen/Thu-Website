@@ -1,6 +1,6 @@
 import Introduction from '../components/Home/Introduction';
 import About from '../components/Home/About';
-import Contact from '../components/Home/Contact';
+import Connect from '../components/Home/Connect';
 
 import { Container } from '@mui/material';
 
@@ -9,7 +9,7 @@ const Home = () => {
     <Container>
       <Introduction />
       <About />
-      <Contact />
+      <Connect />
     </Container>
   );
 };
