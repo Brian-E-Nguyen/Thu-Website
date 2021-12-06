@@ -1,7 +1,7 @@
 import { Route, Switch } from 'react-router-dom';
 
 import Home from './views/Home';
-import Resume from './views/Resume';
+import ResumeView from './views/ResumeView';
 
 import Navbar from './components/Navbar';
 
@@ -14,7 +14,7 @@ function App() {
       <header className='App-header'>
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/resume' component={Resume} />
+          <Route path='/resume' component={ResumeView} />
         </Switch>
       </header>
     </div>
