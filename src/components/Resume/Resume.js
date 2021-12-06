@@ -18,6 +18,17 @@ const Resume = () => {
           </a>
           <a href='#'>657-238-7860</a>
         </p>
+        <p>
+          A California second-year business administration student seeking an
+          internship position in accounting to apply knowledge and to support
+          the company’s growth.
+        </p>
+        <div>
+          <h2 className='resume__header'>Education</h2>
+          <h3 className='resume__leftcolumn--header'>Cypress College</h3>
+          <h3 className='resume__rightcolumn--header'>Jan. 2020 – Jan. 2023</h3>
+          <p className='resume__leftcolumn--description'>Content Writer</p>
+        </div>
       </Container>
     </div>
   );
