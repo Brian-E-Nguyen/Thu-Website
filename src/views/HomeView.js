@@ -1,13 +1,12 @@
-import Introduction from '../components/Introduction';
-import About from '../components/About';
-import Contact from '../components/Contact';
+import Introduction from '../components/Home/Introduction';
+import About from '../components/Home/About';
+import Contact from '../components/Home/Contact';
 
 import { Container } from '@mui/material';
 
 const Home = () => {
   return (
     <Container>
-      <h1>Home</h1>
       <Introduction />
       <About />
       <Contact />
