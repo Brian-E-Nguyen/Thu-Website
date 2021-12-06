@@ -1,8 +1,8 @@
 import { Container } from '@mui/material';
 
-import './ResumeFile.css';
+import './Resume.css';
 
-const ResumeFile = () => {
+const Resume = () => {
   return (
     <div className='resume'>
       <Container>
@@ -23,4 +23,4 @@ const ResumeFile = () => {
   );
 };
 
-export default ResumeFile;
+export default Resume;
