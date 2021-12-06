@@ -2,7 +2,7 @@
   background-color: white;
   color: black;
   font-family: 'Times New Roman', Times, serif;
-  margin: 0 50px;
+  margin: 20px 10vw;
   padding: 20px 0;
 }
 
@@ -38,10 +38,30 @@
 
 .resume__leftcolumn--description {
   font-style: italic;
-  margin-top: -30px;
+  margin-top: -25px;
 }
 .resume__rightcolumn--description {
   font-style: italic;
   margin-top: -30px;
   float: right;
+}
+
+@media (max-width: 899px) {
+  .resume__rightcolumn--header {
+    float: left;
+  }
+  .resume__rightcolumn--description {
+    margin-top: -30px;
+    float: left;
+  }
+}
+
+@media (max-width: 900px) {
+  .resume__rightcolumn--header {
+    float: right;
+  }
+  .resume__rightcolumn--description {
+    margin-top: -30px;
+    float: right;
+  }
 }
