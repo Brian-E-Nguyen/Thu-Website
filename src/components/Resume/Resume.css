@@ -23,17 +23,25 @@
   border-bottom: 1px solid black;
 }
 
-.resume__leftcolumn--header {
-  font-weight: 700;
-  display: inline-block;
+.resume__column {
+  column-count: 2;
 }
 
-.resume__leftcolumn--description {
-  font-style: italic;
-  margin-top: -10px;
+.resume__leftcolumn--header {
+  font-weight: 700;
 }
 
 .resume__rightcolumn--header {
   font-weight: 700;
+  float: right;
+}
+
+.resume__leftcolumn--description {
+  font-style: italic;
+  margin-top: -30px;
+}
+.resume__rightcolumn--description {
+  font-style: italic;
+  margin-top: -30px;
   float: right;
 }
