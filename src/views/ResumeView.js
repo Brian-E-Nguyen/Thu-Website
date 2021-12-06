@@ -1,12 +1,12 @@
-import ResumeFile from '../components/Resume/ResumeFile';
+import Resume from '../components/Resume/Resume';
 
-const Resume = () => {
+const ResumeView = () => {
   return (
     <div>
       <h1>Resume</h1>
-      <ResumeFile />
+      <Resume />
     </div>
   );
 };
 
-export default Resume;
+export default ResumeView;
