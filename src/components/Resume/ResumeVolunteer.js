@@ -23,7 +23,6 @@ const ResumeVolunteer = () => {
           <p className='resume__rightcolumn--description'>Norwalk, CA</p>
         </Grid>
         <div>
-          {' '}
           <ul className='resume__list'>
             <li>
               Serving as the VP of Administration at California State
@@ -49,27 +48,27 @@ const ResumeVolunteer = () => {
 
       {/* HO CHI MINH CITY OPEN UNIVERSITY */}
       <Grid container spacing={2}>
-        <Grid item sm={12} md={10}>
+        <Grid item xs={12} md={10}>
           <h3 className='resume__leftcolumn--header'>
             Ho Chi Minh City Open University
           </h3>
         </Grid>
-        <Grid item sm={12} md={2}>
+        <Grid item xs={12} md={2}>
           <h3 className='resume__rightcolumn--header'>
             Jun. 2019 - Sept. 2019
           </h3>
         </Grid>
-        <Grid item sm={12} md={10}>
+        <Grid item xs={12} md={10}>
           <p className='resume__leftcolumn--description'>
             School Guidance Volunteer
           </p>
-          <p>
+          <p className='resume__description'>
             Assisted students in finding dorms for them to live in while they
             attend the university; provided students with information about the
             university and counselling about its courses
           </p>
         </Grid>
-        <Grid item sm={12} md={2}>
+        <Grid item xs={12} md={2}>
           <p className='resume__rightcolumn--description'>
             Ho Chi Minh City, Vietnam
           </p>

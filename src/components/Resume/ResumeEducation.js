@@ -7,7 +7,7 @@ const ResumeEducation = () => {
     <div>
       <h2 className='resume__header'>Education</h2>
       <Grid container spacing={2}>
-        <Grid item xs={12} md={4} lg={6} className='test'>
+        <Grid item xs={12} md={4} lg={6}>
           <h3 className='resume__leftcolumn--header'>Cypress College</h3>
         </Grid>
         <Grid item xs={12} md={8} lg={6}>
