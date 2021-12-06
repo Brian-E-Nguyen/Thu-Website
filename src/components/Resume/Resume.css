@@ -23,10 +23,6 @@
   border-bottom: 1px solid black;
 }
 
-.resume__column {
-  column-count: 2;
-}
-
 .resume__leftcolumn--header {
   font-weight: 700;
 }
@@ -49,19 +45,20 @@
 @media (max-width: 899px) {
   .resume__rightcolumn--header {
     float: left;
+    padding: 0;
+    margin: -15px 0;
   }
   .resume__rightcolumn--description {
     margin-top: -30px;
     float: left;
   }
-}
-
-@media (max-width: 900px) {
-  .resume__rightcolumn--header {
-    float: right;
+  .resume__leftcolumn--header {
+    margin: 0px 0;
+    padding: 0 0px !important;
+    font-size: 1.25rem;
   }
-  .resume__rightcolumn--description {
-    margin-top: -30px;
-    float: right;
+  .resume__leftcolumn--description {
+    font-style: italic;
+    margin-top: -10px;
   }
 }
