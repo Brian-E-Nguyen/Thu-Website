@@ -1,5 +1,7 @@
-import { Container, Grid } from '@mui/material';
+import { Container } from '@mui/material';
 
+import ResumeEducation from './ResumeEducation';
+import ResumeExperience from './ResumeExperience';
 import './Resume.css';
 
 const Resume = () => {
@@ -23,30 +25,8 @@ const Resume = () => {
           internship position in accounting to apply knowledge and to support
           the company’s growth.
         </p>
-        <div>
-          <h2 className='resume__header'>Education</h2>
-          <Grid container spacing={2}>
-            <Grid item md={6}>
-              <h3 className='resume__leftcolumn--header'>Cypress College</h3>
-            </Grid>
-            <Grid item md={6}>
-              <h3 className='resume__rightcolumn--header'>
-                Jan. 2020 – Jan. 2023
-              </h3>
-            </Grid>
-            <Grid item md={6}>
-              <p className='resume__leftcolumn--description'>
-                Business Administration Associate in Science Degree for Transfer
-                in Accounting
-              </p>
-            </Grid>
-            <Grid item md={6}>
-              <p className='resume__rightcolumn--description'>
-                GPA 4.0 Cypress, CA
-              </p>
-            </Grid>
-          </Grid>
-        </div>
+        <ResumeEducation />
+        <ResumeExperience />
       </Container>
     </div>
   );
