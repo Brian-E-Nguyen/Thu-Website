@@ -2,4 +2,16 @@
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
+  font-size: 3rem;
+}
+
+.about__description {
+  font-weight: 300;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.about__description--emphasis {
+  font-style: italic;
+  color: #79c2d0;
 }
