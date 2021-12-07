@@ -4,6 +4,8 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 
+import './SocialButtons.css';
+
 const SocialButtons = () => {
   const email = 'mailto:nhanhthu920@gmail.com';
   const linkedIn = 'https://www.linkedin.com/in/thu-h-nguyen2/';
@@ -14,26 +16,26 @@ const SocialButtons = () => {
     <div>
       {/* Email */}
       <a href={email} target='_blank' rel='noreferrer'>
-        <IconButton color='secondary' component='span' size='large'>
-          <EmailIcon fontSize='large' />
+        <IconButton component='span' className='social-button'>
+          <EmailIcon fontSize='medium' />
         </IconButton>
       </a>
       {/* LinkedIn */}
       <a href={linkedIn} target='_blank' rel='noreferrer'>
-        <IconButton color='secondary' component='span' size='large'>
-          <LinkedInIcon fontSize='large' />
+        <IconButton component='span' className='social-button'>
+          <LinkedInIcon fontSize='medium' />
         </IconButton>
       </a>
       {/* Facebook */}
       <a href={facebook} target='_blank' rel='noreferrer'>
-        <IconButton color='secondary' component='span' size='large'>
-          <FacebookIcon fontSize='large' />
+        <IconButton component='span' className='social-button'>
+          <FacebookIcon fontSize='medium' />
         </IconButton>
       </a>
       {/* Instagram */}
       <a href={instagram} target='_blank' rel='noreferrer'>
-        <IconButton color='secondary' component='span' size='large'>
-          <InstagramIcon fontSize='large' />
+        <IconButton component='span' className='social-button'>
+          <InstagramIcon fontSize='medium' />
         </IconButton>
       </a>
     </div>
