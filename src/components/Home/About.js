@@ -6,7 +6,7 @@ const About = () => {
       <h1 className='about__header'>About Me</h1>
       <div className='about__description'>
         <p>
-          I am an internation student who is currently studying at
+          I am an international student who is currently studying at
           <span className='about__description--emphasis'> Cypress College</span>
           . I plan to transfer to
           <span className='about__description--emphasis'>
