@@ -1,5 +1,5 @@
 import './Connect.css';
-
+import SocialButtons from './SocialButtons';
 const Connect = () => {
   return (
     <div className='connect'>
@@ -8,9 +8,7 @@ const Connect = () => {
         Feel free to use any of the platforms to contact / connect with me. I'd
         love hearing from you!
       </p>
-      <button>Email</button>
-      <button>LinkedIn</button>
-      <button>Facebook</button>
+      <SocialButtons />
     </div>
   );
 };
