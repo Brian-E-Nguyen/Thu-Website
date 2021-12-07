@@ -1,0 +1,9 @@
+.connect {
+  text-align: center;
+}
+
+.connect__header {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 3rem;
+}

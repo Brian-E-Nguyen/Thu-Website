@@ -1,6 +1,6 @@
 import { Route, Switch } from 'react-router-dom';
 
-import Home from './views/Home';
+import HomeView from './views/HomeView';
 import ResumeView from './views/ResumeView';
 
 import Navbar from './components/Navbar';
@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <header className='App-header'>
         <Switch>
-          <Route path='/' exact component={Home} />
+          <Route path='/' exact component={HomeView} />
           <Route path='/resume' component={ResumeView} />
         </Switch>
       </header>
