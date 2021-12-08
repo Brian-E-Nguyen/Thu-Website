@@ -1,8 +1,9 @@
 import Particles from 'react-tsparticles';
-
-function Particle() {
+import './Particle.css';
+const Particle = () => {
   return (
     <Particles
+      className='particle'
       params={{
         particles: {
           number: {
@@ -48,6 +49,6 @@ function Particle() {
       }}
     />
   );
-}
+};
 
 export default Particle;

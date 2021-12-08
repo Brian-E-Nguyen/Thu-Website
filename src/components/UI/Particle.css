@@ -1,0 +1,10 @@
+.particle {
+  bottom: -1;
+  background-color: rebeccapurple !important;
+  z-index: -3;
+}
+#tsparticles {
+  top: 0;
+  background-color: rebeccapurple !important;
+  z-index: -3;
+}

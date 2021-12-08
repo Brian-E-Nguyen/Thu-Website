@@ -7,6 +7,7 @@
   top: 0;
   left: 0;
   transition: 0.5s;
+  z-index: 1;
 }
 .navbar.navbar--onscroll {
   background-color: #416a72;
