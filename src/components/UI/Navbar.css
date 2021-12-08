@@ -6,8 +6,12 @@
   align-items: center;
   top: 0;
   left: 0;
+  transition: 0.5s;
 }
-
+.navbar.navbar--onscroll {
+  background-color: #416a72;
+  transition: 0.5s;
+}
 .navbar__brand {
   font-size: 1.5rem;
   margin-left: 1rem;

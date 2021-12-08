@@ -5,13 +5,22 @@ import './Navbar.css';
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const [mobileView, setMobileView] = useState(false);
+  const [background, setBackground] = useState(false);
+
   const showButton = () => {
     if (window.innerWidth >= 732) setMobileView(false);
-    else setMobileView(true);
+    else {
+      setMobileView(true);
+      changeBackground(true);
+    }
   };
   const showMobileMenu = () => {
     if (click) setClick(false);
     else setClick(true);
+  };
+  const changeBackground = () => {
+    if (window.scrollY >= 100 || window.innerWidth <= 732) setBackground(true);
+    else setBackground(false);
   };
 
   const navbarBtn = (
@@ -26,9 +35,10 @@ const Navbar = () => {
     showButton();
   }, []);
 
+  window.addEventListener('scroll', changeBackground);
   window.addEventListener('resize', showButton);
   return (
-    <nav className='navbar'>
+    <nav className={background ? 'navbar navbar--onscroll' : 'navbar'}>
       <h1 className='navbar__brand'>Thu Nguyen</h1>
       {mobileView && navbarBtn}
       <div className={click ? 'navbar__links ' : 'navbar__links active'}>
