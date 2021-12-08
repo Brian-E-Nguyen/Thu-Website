@@ -31,7 +31,7 @@
   position: absolute;
   top: 1.5rem;
   right: 1rem;
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 30px;
@@ -46,11 +46,11 @@
 }
 
 @media (max-width: 732px) {
-  .navbar__toggle-btn {
+  /* .navbar__toggle-btn {
     display: flex;
-  }
+  } */
   .navbar__links {
-    display: none;
+    /* display: none; */
     width: 100%;
   }
   .navbar {
@@ -64,5 +64,8 @@
   .navbar__links li {
     text-align: center;
     margin-top: 100px;
+  }
+  .navbar-links.active {
+    display: flex;
   }
 }
