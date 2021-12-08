@@ -4,9 +4,12 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <nav className='navbar'>
-      <div>
-        <h1 className='navbar__brand'>Thu Nguyen</h1>
-      </div>
+      <h1 className='navbar__brand'>Thu Nguyen</h1>
+      <a href='#' className='navbar__toggle-btn'>
+        <span className='navbar__toggle-btn--bar'></span>
+        <span className='navbar__toggle-btn--bar'></span>
+        <span className='navbar__toggle-btn--bar'></span>
+      </a>
       <div className='navbar__links'>
         <ul>
           <li>

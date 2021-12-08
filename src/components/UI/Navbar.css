@@ -25,3 +25,30 @@
   color: white;
   text-decoration: none;
 }
+
+.navbar__toggle-btn {
+  position: absolute;
+  top: 0.75;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.navbar__toggle-btn--bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+@media (max-width: 732px) {
+  .navbar__toggle-btn {
+    display: flex;
+  }
+  .navbar__links {
+    display: none;
+  }
+}
