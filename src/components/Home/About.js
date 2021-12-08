@@ -20,12 +20,15 @@ const About = () => {
           </span>
         </p>
         <p>
-          Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-          consectetur, adipisci velit..
+          At the moment, I am trying to earn high scores at school, join clubs,
+          and do volunteering to obtain knowledge and assimilate to American
+          culture which will prepare me for my career
         </p>
         <p>
-          Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-          consectetur, adipisci velit..
+          Additionally, I believe that "When you want to do something, all the
+          universe conspires in helping you to achieve it" - Paulo Coeho.
+          Therefore, have a strong desire, try your best to achieve it, and
+          celebrate the result
         </p>
       </div>
     </div>
