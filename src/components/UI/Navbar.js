@@ -8,7 +8,7 @@ const Navbar = () => {
   const [background, setBackground] = useState(false);
 
   const showButton = () => {
-    if (window.innerWidth >= 732) setMobileView(false);
+    if (window.innerWidth >= 733) setMobileView(false);
     else {
       setMobileView(true);
       changeBackground(true);
