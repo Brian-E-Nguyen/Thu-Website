@@ -13,8 +13,9 @@
   transition: 0.5s;
 }
 .navbar__brand {
-  font-size: 1.5rem;
   margin-left: 1rem;
+  color: white;
+  text-decoration: none;
 }
 
 .navbar__links ul {

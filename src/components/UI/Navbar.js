@@ -39,7 +39,9 @@ const Navbar = () => {
   window.addEventListener('resize', showButton);
   return (
     <nav className={background ? 'navbar navbar--onscroll' : 'navbar'}>
-      <h1 className='navbar__brand'>Thu Nguyen</h1>
+      <Link className='navbar__brand' to='/'>
+        <h1>Thu Nguyen</h1>
+      </Link>
       {mobileView && navbarBtn}
       <div className={click ? 'navbar__links ' : 'navbar__links active'}>
         <ul>
