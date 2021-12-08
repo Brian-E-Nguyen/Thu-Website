@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
-  const [hamburgerBtn, setHamburgerBtn] = useState(false);
+  const [mobileButton, setMobileButton] = useState(false);
   const [mobileView, setMobileView] = useState(false);
   const [background, setBackground] = useState(false);
 
@@ -15,8 +15,11 @@ const Navbar = () => {
     }
   };
   const showMobileMenu = () => {
-    if (hamburgerBtn) setHamburgerBtn(false);
-    else setHamburgerBtn(true);
+    if (mobileButton) setMobileButton(false);
+    else setMobileButton(true);
+  };
+  const hideMobileMenu = () => {
+    setMobileButton(false);
   };
   const changeBackground = () => {
     if (window.scrollY >= 100 || window.innerWidth <= 732) setBackground(true);
@@ -39,17 +42,21 @@ const Navbar = () => {
   window.addEventListener('resize', showButton);
   return (
     <nav className={background ? 'navbar navbar--onscroll' : 'navbar'}>
-      <Link className='navbar__brand' to='/'>
+      <Link className='navbar__brand' to='/' onClick={hideMobileMenu}>
         <h1>Thu Nguyen</h1>
       </Link>
       {mobileView && navbarBtn}
-      <div className={hamburgerBtn ? 'navbar__links ' : 'navbar__links active'}>
+      <div className={mobileButton ? 'navbar__links ' : 'navbar__links active'}>
         <ul>
           <li>
-            <Link to='/'>Home</Link>
+            <Link onClick={hideMobileMenu} to='/'>
+              Home
+            </Link>
           </li>
           <li>
-            <Link to='/resume'>Resume</Link>
+            <Link onClick={hideMobileMenu} to='/resume'>
+              Resume
+            </Link>
           </li>
         </ul>
       </div>
