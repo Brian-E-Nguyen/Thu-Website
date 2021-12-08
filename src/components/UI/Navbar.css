@@ -46,11 +46,7 @@
 }
 
 @media (max-width: 732px) {
-  /* .navbar__toggle-btn {
-    display: flex;
-  } */
   .navbar__links {
-    /* display: none; */
     width: 100%;
   }
   .navbar {
@@ -58,14 +54,17 @@
     align-items: flex-start;
   }
   .navbar__links ul {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar__links.active ul {
+    display: none;
     width: 100%;
     flex-direction: column;
   }
   .navbar__links li {
     text-align: center;
     margin-top: 100px;
-  }
-  .navbar-links.active {
-    display: flex;
   }
 }
