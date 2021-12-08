@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+.navbar__brand {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+.navbar__links ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar__links ul li {
+  margin: 0 20px;
+  display: inline;
+  list-style: none;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
