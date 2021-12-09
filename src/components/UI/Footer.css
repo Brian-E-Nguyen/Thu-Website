@@ -1,4 +1,8 @@
 .footer {
-  background-color: black;
+  background-color: rgb(34, 34, 34);
   width: 100%;
+  position: absolute;
+  margin-top: 3rem;
+  padding: 2rem 1rem;
+  text-align: center;
 }
