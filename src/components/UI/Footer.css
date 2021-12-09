@@ -6,3 +6,7 @@
   padding: 2rem 1rem;
   text-align: center;
 }
+
+a.footer__link {
+  color: #6fc9db;
+}
