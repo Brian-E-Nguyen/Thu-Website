@@ -9,6 +9,8 @@ const DownloadButton = () => {
       <a
         className='download-button'
         href='https://u.pcloud.link/publink/show?code=XZM9NAXZgLeSgdwP2l5zEFzxwE7kKzwPW1jV'
+        target='_blank'
+        rel='noreferrer'
         download='Thu_Resume.pdf'
       >
         <Button variant='contained' startIcon={<CloudDownload />}>
