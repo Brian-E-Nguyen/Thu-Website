@@ -8,7 +8,7 @@ const Introduction = () => {
   return (
     <div className='introduction'>
       <Grid container spacing={2}>
-        <Grid item sm={12} md={8}>
+        <Grid item xs={12} md={8}>
           <h1 className='introduction__header'>Hi there!</h1>
           <h1 className='introduction__header'>
             My name is <span className='introduction__name'>Thu Nguyen</span>
@@ -18,7 +18,7 @@ const Introduction = () => {
             I'm an Aspiring Accountant
           </h2>
         </Grid>
-        <Grid item sm={12} md={4}>
+        <Grid item xs={12} md={4}>
           <ProfilePicture />
         </Grid>
       </Grid>
