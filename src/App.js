@@ -4,7 +4,7 @@ import HomeView from './views/HomeView';
 import ResumeView from './views/ResumeView';
 import ErrorView from './views/ErrorView';
 import Navbar from './components/UI/Navbar';
-import Footer from './components/UI/Footer/Footer';
+import Footer from './components/UI/Footer';
 
 import './App.css';
 

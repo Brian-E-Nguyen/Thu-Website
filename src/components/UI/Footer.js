@@ -1,6 +1,6 @@
 import { Grid } from '@mui/material';
 
-import SocialButtonsSmall from './SocialButtonsSmall';
+import SocialButtonsSmall from './SocialButtons/SocialButtonsSmall';
 import './Footer.css';
 
 const Footer = () => {
