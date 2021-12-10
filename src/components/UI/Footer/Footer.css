@@ -1,0 +1,20 @@
+.footer {
+  background-color: rgb(34, 34, 34);
+  width: 100%;
+  position: absolute;
+  margin-top: 3rem;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footer__section {
+  margin: 0px 0 !important;
+}
+
+.footer__brand {
+  font-size: 1.5rem;
+}
+
+a.footer__link {
+  color: #6fc9db;
+}
