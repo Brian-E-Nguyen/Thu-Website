@@ -5,9 +5,8 @@ import Particle from '../components/UI/Particle';
 
 const ResumeView = () => {
   return (
-    <div>
+    <div style={{ marginTop: 10 + 'rem' }}>
       <Particle />
-      <h1>Resume</h1>
       <DownloadButton />
       <Resume />
       <DownloadButton />
