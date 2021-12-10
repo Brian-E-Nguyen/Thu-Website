@@ -1,5 +1,5 @@
 import './Connect.css';
-import SocialButtons from './SocialButtons';
+import SocialButtons from '../UI/SocialButtons/SocialButtons';
 const Connect = () => {
   return (
     <div className='connect'>
