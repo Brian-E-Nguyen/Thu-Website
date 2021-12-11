@@ -5,6 +5,7 @@ import ResumeView from './views/ResumeView';
 import ErrorView from './views/ErrorView';
 import Navbar from './components/UI/Navbar';
 import Footer from './components/UI/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 import './App.css';
 
@@ -13,6 +14,7 @@ function App() {
     <div>
       <Navbar />
       <header className='App-header'>
+        <ScrollToTop />
         <Switch>
           <Route path='/' exact component={HomeView} />
           <Route path='/resume' component={ResumeView} />
