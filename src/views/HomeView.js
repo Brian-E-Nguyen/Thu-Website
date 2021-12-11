@@ -1,6 +1,5 @@
 import Introduction from '../components/Home/Introduction';
 import About from '../components/Home/About';
-import Connect from '../components/Home/Connect';
 import Particle from '../components/UI/Particle';
 
 import { Container } from '@mui/material';
@@ -12,7 +11,6 @@ const Home = () => {
       <Container>
         <Introduction />
         <About />
-        <Connect />
       </Container>
     </section>
   );
