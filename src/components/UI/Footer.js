@@ -1,6 +1,6 @@
 import { Grid } from '@mui/material';
 
-import SocialButtonsSmall from './SocialButtons/SocialButtonsSmall';
+import SocialButtons from './SocialButtons';
 import './Footer.css';
 
 const Footer = () => {
@@ -26,7 +26,7 @@ const Footer = () => {
           </section>
         </Grid>
         <Grid item xs={12} md={4} className='footer__section'>
-          <SocialButtonsSmall />
+          <SocialButtons />
         </Grid>
       </Grid>
     </footer>
