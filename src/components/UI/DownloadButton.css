@@ -1,3 +1,7 @@
 .download-button {
   text-decoration: none;
 }
+
+.MuiButton-root {
+  background-color: #d4a87b !important;
+}
