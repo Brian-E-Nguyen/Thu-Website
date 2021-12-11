@@ -1,5 +1,5 @@
 .social-button--sm {
-  color: #79c2d0 !important;
+  color: #a75503 !important;
   background-color: rgb(255, 255, 255) !important;
   margin: 0 5px !important;
   transition: 0.2s !important;
@@ -7,6 +7,6 @@
 
 .social-button--sm:hover {
   background-color: rgb(255, 255, 255);
-  box-shadow: 0px 0px 5px 5px #79c2d0;
+  box-shadow: 0px 0px 5px 5px #a75503;
   transition: 0.2s;
 }

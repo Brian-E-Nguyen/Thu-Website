@@ -10,12 +10,12 @@
   z-index: 1;
 }
 .navbar.navbar--onscroll {
-  background-color: #416a72;
+  background-color: #e6ccb2;
   transition: 0.5s;
 }
 .navbar__brand {
   margin-left: 1rem;
-  color: white;
+  color: #a75503;
   text-decoration: none;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .navbar ul li a {
-  color: white;
+  color: #a75503;
   text-decoration: none;
 }
 
@@ -50,7 +50,7 @@
 .navbar__toggle-btn--bar {
   height: 3px;
   width: 100%;
-  background-color: white;
+  background-color: black;
   border-radius: 10px;
 }
 

@@ -1,10 +1,11 @@
 .footer {
-  background-color: rgb(34, 34, 34);
+  background-color: #da8d40;
   width: 100%;
   position: absolute;
   margin-top: 3rem;
   padding: 2rem 0;
   text-align: center;
+  color: white;
 }
 
 .footer__section {
@@ -16,5 +17,5 @@
 }
 
 a.footer__link {
-  color: #6fc9db;
+  color: #ffffff;
 }
