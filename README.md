@@ -2,7 +2,7 @@
 
 A simple website made for my friend Thu Nguyen using React, React Router, and Material User Interface
 
-[Link to website (thuhnguyen.com/)](https://thuhnguyen.com)
+<a href="https://thuhnguyen.com" target="_blank">Link to website (thuhnguyen.com)</a>
 
 <h2 align="center">Images</h2
 
