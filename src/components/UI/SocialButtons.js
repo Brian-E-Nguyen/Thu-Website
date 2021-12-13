@@ -9,8 +9,6 @@ import './SocialButtons.css';
 const SocialButtonsSmall = () => {
   const email = 'mailto:nhanhthu920@gmail.com';
   const linkedIn = 'https://www.linkedin.com/in/thu-h-nguyen2/';
-  const facebook = 'https://www.facebook.com/profile.php?id=100045753340354';
-  const instagram = 'https://www.instagram.com/thu.n02/';
 
   return (
     <div>
