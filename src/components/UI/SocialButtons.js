@@ -26,18 +26,6 @@ const SocialButtonsSmall = () => {
           <LinkedInIcon fontSize='small' />
         </IconButton>
       </a>
-      {/* Facebook */}
-      <a href={facebook} target='_blank' rel='noreferrer'>
-        <IconButton component='span' className='social-button--sm'>
-          <FacebookIcon fontSize='small' />
-        </IconButton>
-      </a>
-      {/* Instagram */}
-      <a href={instagram} target='_blank' rel='noreferrer'>
-        <IconButton component='span' className='social-button--sm'>
-          <InstagramIcon fontSize='small' />
-        </IconButton>
-      </a>
     </div>
   );
 };
