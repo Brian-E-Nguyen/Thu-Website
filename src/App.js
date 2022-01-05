@@ -1,7 +1,4 @@
-import { Route, Switch } from 'react-router-dom';
-
 import HomeView from './views/HomeView';
-import ErrorView from './views/ErrorView';
 import Navbar from './components/UI/Navbar';
 import Footer from './components/UI/Footer';
 import ScrollToTop from './components/ScrollToTop';
@@ -14,10 +11,7 @@ function App() {
       <Navbar />
       <header className='App-header'>
         <ScrollToTop />
-        <Switch>
-          <Route path='/' exact component={HomeView} />
-          <Route path='*' exact component={ErrorView} />
-        </Switch>
+        <HomeView />
       </header>
       <Footer />
     </div>
