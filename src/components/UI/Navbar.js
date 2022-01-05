@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 
 import NavbarBrand from './NavbarBrand';
 import './Navbar.css';
@@ -44,9 +43,14 @@ const Navbar = () => {
   window.addEventListener('resize', showButton);
   return (
     <nav className={background ? 'navbar navbar--onscroll' : 'navbar'}>
-      <Link className='navbar__brand' to='/' onClick={hideMobileMenu}>
+      <a
+        href='#introduction'
+        className='navbar__brand'
+        to='/'
+        onClick={hideMobileMenu}
+      >
         <NavbarBrand />
-      </Link>
+      </a>
       {mobileView && navbarBtn}
       <div className={mobileButton ? 'navbar__links ' : 'navbar__links active'}>
         <ul>
