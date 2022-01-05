@@ -6,7 +6,7 @@ import { Container } from '@mui/material';
 
 const Home = () => {
   return (
-    <section>
+    <section style={{ marginTop: 10 + 'rem' }}>
       <Container>
         <Introduction />
         <About />
