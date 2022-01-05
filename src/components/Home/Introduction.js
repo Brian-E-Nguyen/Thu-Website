@@ -6,7 +6,7 @@ import ProfilePicture from './ProfilePicture';
 
 const Introduction = () => {
   return (
-    <div className='introduction'>
+    <div id='introduction'>
       <Grid container spacing={2}>
         <Grid item xs={12} md={8}>
           <h1 className='introduction__header'>Hi there!</h1>

@@ -6,6 +6,13 @@
   padding: 20px 0;
 }
 
+.resume-section-header {
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3rem;
+}
+
 .resume__title {
   text-align: center;
   font-size: 3rem;
