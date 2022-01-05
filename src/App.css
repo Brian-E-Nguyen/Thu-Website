@@ -1,8 +1,13 @@
 html {
   background-color: #fdf9f6;
   color: rgb(0, 0, 0);
+  scroll-behavior: smooth;
 }
-
+#introduction,
+#about,
+#resume {
+  scroll-margin-top: 200px;
+}
 .App-header {
   min-height: 100vh;
 }
