@@ -1,5 +1,6 @@
 import { Grid, TextField, Button } from '@mui/material';
 import './ContactForm.css';
+
 const ContactForm = () => {
   return (
     <form className='contact-form'>
@@ -41,7 +42,9 @@ const ContactForm = () => {
         label='Your Message *'
         name='message'
       />
-      <Button>Submit</Button>
+      <center>
+        <Button variant='contained'>Submit</Button>
+      </center>
     </form>
   );
 };
