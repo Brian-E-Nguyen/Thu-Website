@@ -2,8 +2,8 @@ import emailjs from 'emailjs-com';
 
 export const submitForm = (event) => {
   emailjs.sendForm(
-    'service_1xwndxg',
-    'template_fx6y7uj',
+    'service_uwyem9w',
+    'template_cz9q9r7',
     event.target,
     'user_4vVpxSkvODPvEMWOc492H'
   );
