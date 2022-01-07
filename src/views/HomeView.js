@@ -1,7 +1,7 @@
 import Introduction from '../components/Home/Introduction';
 import About from '../components/Home/About';
 import ResumeSection from '../components/Resume/ResumeSection';
-import ContactForm from '../components/Contact/ContactForm';
+import Contact from '../components/Contact/Contact';
 
 import { Container } from '@mui/material';
 
@@ -14,7 +14,7 @@ const Home = () => {
       </Container>
       <ResumeSection />
       <Container>
-        <ContactForm />
+        <Contact />
       </Container>
     </section>
   );
