@@ -3,8 +3,8 @@ import './About.css';
 const About = () => {
   return (
     <div id='about'>
-      <h1 className='about__header'>About Me</h1>
-      <div className='about__description'>
+      <h1 className='header'>About Me</h1>
+      <div className='description'>
         <p>
           I am an international student who is currently studying at
           <span className='about__description--emphasis'> Cypress College</span>

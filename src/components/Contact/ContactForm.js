@@ -145,7 +145,9 @@ const ContactForm = (props) => {
         <p className='contact-form__message--error'>Field cannot be blank</p>
       )}
 
-      <button>Submit</button>
+      <Button variant='contained' type='submit'>
+        Submit
+      </Button>
       {formSent && <p className='contact-form__message--success'>Form sent!</p>}
     </form>
   );
