@@ -29,13 +29,20 @@
   margin: 20px 20px;
   display: inline;
   list-style: none;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .navbar ul li a {
   color: #a75503;
   text-decoration: none;
+  transition: 0.2s;
 }
-
+.navbar ul li a:hover {
+  color: #ffffff;
+  transition: 0.2s;
+}
 .navbar__toggle-btn {
   position: absolute;
   top: 1.5rem;
