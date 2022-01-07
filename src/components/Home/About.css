@@ -1,9 +1,3 @@
-.about__description p {
-  font-weight: 300;
-  align-items: center;
-  font-size: 1.5rem;
-}
-
 .about__description--emphasis {
   font-style: italic;
   color: #a75503;
