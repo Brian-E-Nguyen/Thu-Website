@@ -3,10 +3,13 @@ const Contact = () => {
   return (
     <div className='contact'>
       <h1 className='header'>Contact Me</h1>
-      <p>
-        Feel free to contact me for any reason using the form below, or directly
-        at <a href='mailto:nhanhthu920@gmail.com'>nhanhthu920@gmail.com</a>
-      </p>
+      <div className='description'>
+        <p>
+          Feel free to contact me for any reason using the form below, or
+          directly at{' '}
+          <a href='mailto:nhanhthu920@gmail.com'>nhanhthu920@gmail.com</a>
+        </p>
+      </div>
       <ContactForm />
     </div>
   );
