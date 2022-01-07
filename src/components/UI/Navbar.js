@@ -55,13 +55,18 @@ const Navbar = () => {
       <div className={mobileButton ? 'navbar__links ' : 'navbar__links active'}>
         <ul>
           <li>
-            <a href='#about' onClick={hideMobileMenu} to='/'>
+            <a href='#about' onClick={hideMobileMenu}>
               About
             </a>
           </li>
           <li>
-            <a href='#resume' onClick={hideMobileMenu} to='/resume'>
+            <a href='#resume' onClick={hideMobileMenu}>
               Resume
+            </a>
+          </li>
+          <li>
+            <a href='#contact' onClick={hideMobileMenu}>
+              Contact
             </a>
           </li>
         </ul>
