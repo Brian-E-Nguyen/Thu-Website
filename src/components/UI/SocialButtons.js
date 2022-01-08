@@ -4,7 +4,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 import './SocialButtons.css';
 
-const SocialButtonsSmall = () => {
+const SocialButtons = () => {
   const email = 'mailto:nhanhthu920@gmail.com';
   const linkedIn = 'https://www.linkedin.com/in/thu-h-nguyen2/';
 
@@ -26,4 +26,4 @@ const SocialButtonsSmall = () => {
   );
 };
 
-export default SocialButtonsSmall;
+export default SocialButtons;
